@@ -1,0 +1,189 @@
+.head {
+  height: 70px;
+  max-height: 70px;
+  display: flex;
+  justify-content: center;
+}
+.content {
+  position: absolute;
+  width: 100%;
+}
+
+.img-bakground {
+  width: 100%;
+  height: 360px;
+  object-fit: cover;
+}
+.introduce-tour {
+  position: absolute;
+  left: 125px;
+  right: 125px;
+  top: 150px;
+  /* width: 100%; */
+  /* xét top with right thì không cần xét kích cỡ */
+}
+.sey {
+  font-size: 65px;
+  font-weight: 600;
+  color: white;
+  padding: 10px 0;
+}
+.introduce-tour-list {
+  display: flex;
+}
+.introduce-tour-item {
+  padding: 15px 30px;
+  font-size: 17px;
+  font-weight: 600;
+  color: white;
+}
+.introduce-tour-item:nth-child(1) {
+  color: black;
+  background-color: white;
+}
+.introduce-tittle {
+  background-color: white;
+  flex: 1;
+  padding: 60px 30px 0px 30px;
+}
+.introduce-conutry2 {
+  color: red;
+  margin: 10px 0;
+}
+.main-container {
+  display: flex;
+}
+.nav-menu {
+  width: 300px;
+  margin-left: 30px;
+  background-color: white;
+  box-sizing: border-box;
+}
+.introduce-conutry {
+  font-size: 28px;
+  font-weight: 300;
+}
+.thanhcc {
+  display: flex;
+  justify-content: space-evenly;
+  height: 75px;
+  background-color: #ffe500;
+  align-items: center;
+  margin: 35px 0;
+}
+.clock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.clock i {
+  margin-bottom: 10px;
+}
+.introduce-country-tt {
+  font-size: 18px;
+  line-height: 25px;
+  opacity: 0.6;
+}
+.head-ct-in-grid {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  justify-content: space-between;
+}
+.destinationA-Addres-item {
+  display: flex;
+  border-bottom: 1px solid #dcdcdc;
+}
+.destination-text {
+  flex: 1;
+  padding: 30px 0;
+}
+.Destination-div {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding-left: 25px;
+  font-size: 20px;
+}
+.destination-check {
+  flex: 1;
+  padding: 30px 0;
+  display: flex;
+}
+.airplane-div {
+  margin-right: 60px;
+}
+.airplane-div p:nth-child(2) {
+  margin-top: 10px;
+}
+.airplane-text {
+  display: flex;
+}
+.airplane-text i {
+  margin-top: 4px;
+  margin-right: 10px;
+}
+.airplane-text2 {
+  margin-bottom: 20px;
+}
+.destination-text p {
+  font-size: 15px;
+  color: #666;
+}
+.slider-travel-img {
+  width: 33.3334%;
+}
+.slider-travel {
+  display: flex;
+}
+.nav-menu {
+  padding: 35px 35px 0px 35px;
+}
+.nav-menu-tt {
+  font-size: 25px;
+  margin-bottom: 17px;
+}
+.form-item-box-ip {
+  padding-top: 35px;
+  padding-bottom: 15px;
+  border: none;
+  outline: none;
+}
+.form-item-box {
+  border-bottom: 2px solid #000000;
+}
+.mesage {
+  display: block;
+  height: 110px;
+  width: 100%;
+  white-space: wrap;
+  overflow-y: auto;
+
+  margin-top: 30px;
+  box-sizing: border-box;
+  padding: 20px 10px 0px 20px;
+}
+.checkA span {
+  font-size: 16px;
+}
+.checkA {
+  margin: 30px 0;
+  display: flex;
+}
+
+.checkA i {
+  margin-top: 3px;
+  margin-left: 7px;
+  font-size: 13px;
+}
+.btn-form {
+  padding: 30px;
+  /* width: 100%; */
+  color: white;
+  margin: 0 -35px;
+  display: flex;
+  justify-content: center;
+  background-color: #000;
+}

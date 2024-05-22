@@ -1,0 +1,19 @@
+.grid {
+  width: 1340px;
+}
+
+:root {
+  --head-color: #000000;
+}
+.row {
+  display: flex;
+  flex-direction: wrap;
+  margin: 0 -12px;
+}
+.column {
+  width: 33.3334%;
+  padding: 0 12px;
+}
+html {
+  font-family: "Montserrat", sans-serif;
+}
